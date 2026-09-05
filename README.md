@@ -60,32 +60,6 @@ policies; each policy can have several claims and several payment installments.
 - Conditional aggregation (`CASE WHEN` inside `SUM`/`COUNT`)
 - Date arithmetic (`julianday`, `strftime`, `date(...)`)
 
-## How to run it
-
-**Option A — no setup, just explore:**
-Open `insurance_portfolio.db` with [DB Browser for SQLite](https://sqlitebrowser.org/)
-or the SQLite CLI and run any query from `queries.sql`.
-
-```bash
-sqlite3 insurance_portfolio.db
-.read queries.sql
-```
-
-**Option B — regenerate the data from scratch:**
-
-```bash
-pip install faker
-python generate_data.py
-```
-
-This recreates `insurance_portfolio.db` and rewrites `seed_data.sql` (data changes
-slightly each run unless the random seed is kept fixed — it currently is, so output
-is reproducible).
-
-**Option C — load into PostgreSQL/MySQL:**
-Run `schema.sql` then `seed_data.sql` on your engine of choice (minor type
-adjustments may be needed, e.g. `NUMERIC` vs `DECIMAL`).
-
 ## Author
 
 Nesma Yahia — M2 Recherche Opérationnelle, Management, Risque & Négociation (USTHB).
