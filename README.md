@@ -5,10 +5,6 @@ agents, and customers) to answer real business questions an insurer's actuarial,
 underwriting, and management teams would ask — profitability by product line, agent
 performance, claim settlement times, high-risk customers, and renewal pipelines.
 
-This project complements my [Power BI Retail Sales Dashboard](https://github.com/Nesma07/power-bi-retail-sales-dashboard)
-by demonstrating the data layer: schema design, synthetic data generation, and
-analytical SQL (joins, aggregations, window functions, CTEs, subqueries).
-
 ## Data model
 
 Five related tables:
@@ -93,4 +89,4 @@ adjustments may be needed, e.g. `NUMERIC` vs `DECIMAL`).
 ## Author
 
 Nesma Yahia — M2 Recherche Opérationnelle, Management, Risque & Négociation (USTHB).
-[LinkedIn](#) · [GitHub](https://github.com/Nesma07)
+[LinkedIn](https://www.linkedin.com/in/nesma-yahia-801a92237/) · [GitHub](https://github.com/Nesma07)
